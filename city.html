@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lamg="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>city</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.leftfix {
+			float: left;
+		}
+		.rightfix {
+			float: right;
+		}
+		.clearfix::after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.topbar {
+			height: 60px;
+			background-color: gray;
+			line-height: 60px;
+		}
+		.ab {
+			font-size: 25px;
+			color: white;
+		}
+		}
+		.ab a:hover {
+			background-color: green;
+		}
+		.abce {
+			margin-top: 10px;
+		}
+		.abc {
+			margin-top: 5px;
+			height: 50px;
+			line-height: 50px;
+			width: 500px;
+			background-color: lightgray;
+			color: black;
+		}
+		.abc:hover {
+			background-color: deepskyblue;
+		}
+		.left {
+			width: 200px;
+			height: 800px;
+		}
+		.right {
+			width: 600px;
+			height: 800px;
+		}
+	</style>
+</head>
+<body>
+	<div class="topbar clearfix">
+		<div class="ab leftfix">
+			<a href="#">主页</a>
+			<a href="#">新闻</a>
+			<a href="#">联系我们</a>
+			<a href="#">关于我们</a>
+		</div>
+	</div>
+	
+	<div class="abce clearfix">
+		<div class="abcd leftfix">
+			<div class="left">
+				<div class="abc"> The Flight</div>
+				<div class="abc"> The City</div>
+				<div class="abc"> The Island</div>
+				<div class="abc"> The Food</div>
+				<div class="abc"> The People</div>
+				<div class="abc"> The History</div>
+				<div class="abc"> The Ocean</div>
+			</div>
+			<div class="right"></div>
+		</div>
+	</div>
+	
+	
+</body>
+
+
+</html>
+
+
