@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url(background.jpg);
+	margin: 50 auto;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.abc {
+	text-align: center;
+	font-size: 20px;
+	background-color: skyblue;
+	color: black;
+}
+
+.abcd {
+	font-size: 30px;
+	background-color: skyblue;
+	color: black;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+a:active {
+	color: gray;
+	text-decoration: none;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bootstrap组件</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<style>
+		p {
+			margin: 20px 0px 5px;
+		}
+		.carousel-inner img {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<p>原神</p>
+		<ul class="nav nav-tabs">
+			<li class="nav-item"><a class="nav-link active" href="#">主页</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">大世界</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">米游铺</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">账号管理</a></li>
+			<li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+		</ul>
+		<p>图鉴</p>
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<a class="navbar-brand" href="#">Logo</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#">主页</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">角色</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">武器</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">圣遗物</a></li>
+				</ul>
+			</div>
+		</nav>
+		<p>导航</p>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<a class="navbar-brand" href="#">Logo</a>
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="#">地图导航</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">培养攻略</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">	新手教程	</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">探索跑图</a>
+						<a class="dropdown-item" href="#">元素反应</a>
+						<a class="dropdown-item" href="#">武器、圣遗物</a>
+						<a class="dropdown-item" href="#">韧性机制</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<p>折叠栏</p>
+		<div id="accordion">
+			<div class="card">
+				<div class="card-header">
+					<a class="card-link" data-toggle="collapse" href="#collapseOne">选项一</a>
+				</div>
+				<div id="collapseOne" class="collapse show" data-parent="accordion">
+					<div class="card-body"> #1 内容 </div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<a class="collapsed card-link" data-toggle="collapse" href="#collapseTow">选项二</a>
+				</div>
+				<div id="collapseTow" class="collapse" data-parent="#accordion">
+					<div class="card-body"> #2 内容 </div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">选项三</a>
+				</div>
+				<div id="collapseThree" class="collapse" data-parent="#accordion">
+					<div class="card-body"> #3 内容 </div>
+				</div>
+			</div>
+		</div>
+		<p>轮播图</p>
+		<div id="demo" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active"><img src="images/可莉.jpeg" width="200px" height="200px"></div>
+				<div class="carousel-item"><img src="images/莫娜.jpg" width="400px" height="400px"></div>
+				<div class="carousel-item"><img src="images/c.webp" width="400px" height="400px"></div>
+			</div>
+			<a class="carousel-control-prev" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	</div>
+	<script src="bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
