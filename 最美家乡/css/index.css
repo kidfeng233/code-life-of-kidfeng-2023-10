@@ -1,0 +1,100 @@
+/* 基础设置 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+body {
+    background-color: lightgray;
+}
+body .container {
+    background-color: lightslategray;
+}
+/* 顶部banner start*/
+.banner img {
+    text-align: center;
+    width: 1190px;
+}
+/* 顶部banner end*/
+
+/* 主导航条 start */
+.nav {
+    height: 48px;
+    background-color: skyblue;
+}
+.nav li {
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    width: 100px;
+    float: left;
+    margin: 0;
+    font-size: 16px;
+}
+
+.nav-aa .nav-bb {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.nav-aa .nav-bb ul {
+    position: absolute;
+    background-color: white;
+}
+.nav-aa .nav-bb ul li a:hover {
+    color: white;
+    background-color: gray;
+}
+.nav-aa .nav-bb ul li a {
+    display: block;
+}
+
+/* 主导航条 end */
+
+/* 页底版权区 start*/
+.footer {
+    background-color: orange;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* 页底版权区 end*/
+
+/* 浮动 start*/
+.leftfix {
+    float: left;
+}
+.rightfix {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 浮动 end */
+
+/* 超链接样式 start */
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    display: block;
+    background-color: red;
+    color:white;
+    text-decoration: underline;
+}
+.nav-bb a{
+    cursor: default;
+    text-decoration: none;
+}
+/* 超链接样式 end */
+
+/* 列表样式 start */
+ul,ol {
+    list-style: none;
+}
+/* 列表样式 end */
